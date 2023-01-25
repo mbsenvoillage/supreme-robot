@@ -8,6 +8,7 @@
 - ex: `let a = 36` ou encore `9 + 8`
 - **Opérateur** : symbole qui signifie une opération.
 - ex: `+` lorsqu'il est opérateur arithmétique permet d'effectuer une addition. Lorsqu'il est opérateur pour les chaînes de caractères, il permet d'attacher une chaîne à une autre (concaténation).
+- **Valeur logique** : appellée aussi valeur booléenne, elle permet de représenter une valeur de vérité, c'est-à-dire soit vrai, soit faux (true ou false).
 
 #### exemples d'expressions:
 
@@ -61,6 +62,8 @@
 ### Les opérateurs arithmétiques
 
 - Parmi ces opérateurs, on retrouve les symboles des opérations arithmétiques de base : `+` (addition), `-` (soustraction), `*` (multiplication) et enfin `/` (division)
+- L'opérateur reste `%` renvoie le reste d'une division. Ex: `const a = 8 % 6 // renvoie 2`
+- L'opérateur puissance `**` renvoie le résultat de l'exponentiation de l'opérande de gauche par l'opérande de droite. Ex: `const a = 2**2 // renvoie 4`
 
 ### Les opérateurs pour les chaînes de caractères
 
@@ -68,6 +71,31 @@
 - Ex: `'bon' + 'jour'` résultera dans la valeur `'bonjour'`
 
 ### Les opérateur logiques
+
+- L'opérateur logique permet de composer une expression et de savoir si cette expression est vraie ou fausse.
+- Une opération logique peut comporter un ou plusieurs opérandes.
+
+#### L'opérateur ET (&&)
+
+- Renvoie `true` si et seulement si les éléments à gauche et à droite de l'opérateur (les opérandes) ont une valeur à `true`. Dans les autres cas, l'opération renvoie `false`
+- Ex: `true && true // renvoie true`
+- Ex: `true && false // renvoie false`
+- Ex: `const a = 1 + 1 == 2 && 2 + 2 == 4 // renvoie true`
+
+#### L'opérateur OU (||)
+
+- Renvoie `true` si au moins un des deux opérandes ont une valeur à `true`. Ne renvoie `false` que si les deux opérandes sont `false`
+- Ex: `true || true // renvoie true`
+- Ex: `true || false // renvoie true`
+- Ex: `const a = 1 + 1 == 2 || 2 + 2 == 4 // renvoie true`
+- Ex: `const a = 1 + 1 == 2 || 2 + 9 == 4 // renvoie true`
+
+#### L'opérateur NON (!)
+
+- Inverse la valeur de l'expression : renvoie `true` si l'expression est `false` et renvoie `false` si l'expression est `true`
+- Ex: `!true // renvoie false`
+- Ex: `!false // renvoie true`
+- Ex: `const a = !(1 + 1 == 2) // renvoie false`
 
 ### Travaux pratiques
 
