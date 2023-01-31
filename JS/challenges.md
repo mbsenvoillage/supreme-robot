@@ -32,3 +32,18 @@ let input = prompt("What's your name?")
 console.log(input) // retourne {nom saisi par l'utilisateur}
 
 ```
+
+## Challenge 1 : Quizz Mathématique (v2)
+
+- Au lieu d'afficher les réponses de l'utilisateur à la fin du quizz, vous lui indiquerez si sa réponse est juste, ou si sa réponse est fausse. Si elle est juste, vous le féliciterez. Si elle est fausse, vous lui donnerez la bonne réponse.
+- A la fin du quizz vous donnerez à l'utilisateur sa note dans la forme x/z, ex: 3/4
+
+## Challenge 2 : Convertisseur de note
+
+- Le convertisseur de note permet à l'utilisateur de convertir une note sur 20 en une note du système anglo-saxon.
+- Voici les équivalences : A+ (16-20), A (15), A- (14), B+ (13), B (12), B- (11) et ainsi de suite jusqu'à F qui correspond à la note 4/20.
+- Pour les notes en dessous de 4 et au dessus de 20, il faudra informer à l'utilisateur qu'il n'existe pas de notation.
+
+## Challenge 3 : Convertisseur celsius/fahrenheit
+
+- Le convertisseur celsius/fahrenheit permet de convertir les degrés d'une échelle à l'autre.
