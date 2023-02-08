@@ -76,7 +76,10 @@ if (value>=10&&value<=12){
     alert("12")
 }
 if(value>=8&&value<=9){
-    alert
+    alert("F")
+}
+if (value==0&&value<5){
+    alert("G")
 }
 };
 
