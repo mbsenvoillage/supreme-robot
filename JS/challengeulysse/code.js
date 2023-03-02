@@ -4,11 +4,11 @@ function name (){
 
 }
 name()
-Math.random()
+
 function math(){
 
     Math()
-    const v1=Math.random
+    const v1=Math.random()
     let a = p=prompt("4+4");
 
     if (a=4) {
