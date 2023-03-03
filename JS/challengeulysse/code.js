@@ -7,7 +7,6 @@ name()
 
 function math(){
 
-    Math()
     const v1=Math.random()
     let a = p=prompt("4+4");
 
