@@ -8,52 +8,55 @@ name()
 function math(){
 
     const v1=Math.random()
-    let a = p=prompt("4+4");
+    let v2=Math.random();
+    let v3 =Math.random()
+    let v4 =Math.random()
+    let a = p=prompt( v1+"x10");
 
-    if (a=4) {
+    if (a=v1*10) {
         alert("Bonne réponse!!");
     } else {
-        alert("La réponse est "+4); 
+        alert("La réponse est "+v1*10); 
     }
 
-    let b = prompt ("Q2 : 3 + 3 = ?");
-    if (b==6) {
+    let b = prompt ( v2+"x10");
+    if (b==v2*10) {
         alert("Bonne réponse!!");
     } else {
-        alert("La réponse est 6!!");
+        alert("La réponse est "+v2*10);
     }
 
-    let c = prompt ("Q2 : 4 + 3 = ?");
+    let c = prompt ( v3+"x10");
     if (b==7) {
         alert("Bonne réponse!!");
     } else {
-        alert("La réponse est 7!!");
+        alert("La réponse est "+v3*10);
     }
 
-    let d = prompt ("Q2 : 0 + 3 = ?");
-    if (b==3) {
+    let d = prompt ( v4+"x10");
+    if (d==v4*10) {
         alert("Bonne réponse!!");
     } else {
-        alert("La réponse est 3!!");
+        alert("La réponse est " +v4*10);
     }
 
     let results =4;
 
-  if(a!=4){
+  if(a!=v1*10){
 results=results-1 
 
 
   }
-  if(b!=6){
+  if(b!=v2*10){
     results=results-1
 
   };
-  if(c!=7)
+  if(c!=v3*10)
 {
 results=results-1
 
 }
-if (d!=3){
+if (d!=v4*10){
 results=results-1
 
 }
