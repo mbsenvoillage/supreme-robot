@@ -6,6 +6,7 @@ function name (){
 name()
 
 function math(){
+    alert("Les nombres son à rallonges vous avez le droit de faire des copier-coller")
 
     const v1=Math.random()
     let v2=Math.random();
