@@ -60,10 +60,10 @@ results=results-1
 alert(" ta note est de " + results+ "/4")
 function convertisseur (){
     let value=prompt("Entrez la note à convertir")
-    if(value=>18){
+    if(value>=18){
         alert("A+")
     }
-    if(value>=15&&value>=17){
+    if(value>=15&&value==17){
         alert("A")
     }
     if(value>=13&&value<=14){
