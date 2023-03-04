@@ -69,7 +69,7 @@ function convertisseur (){
     if(value>=15&&value==17){
         alert("A")
     }
-    if(value>=13&&value<=14){
+    if(value>=13&&value==14){
         alert("B")
     }
     
