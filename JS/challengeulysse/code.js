@@ -4,12 +4,12 @@ function name (){
 
 }
 name()
-
-function math(){for(let 1=0;i<=4;++i){let v1 = Math.random()
+let result =4;
+function math(){for(let i=0;i<=4;++i){let v1 = Math.random()
 v1=v1*10
 v1=Math.round(v1)
               let a=prompt(v1+"*3")}
-                let result =4;
+                
      if (v1==v1*3){
    alert( "bonne réponse")} else{result=result-1} }
 alert(" ta note est de " + results+ "/4")
@@ -35,7 +35,7 @@ if(value>=8&&value<=9){
 if (value==0&&value<5){
     alert("G")
 }
-};
+;
 
 for (let i = 1; i<=20; i++)
 {
