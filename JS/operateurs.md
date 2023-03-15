@@ -24,6 +24,38 @@
 - Ex: `s = 36`. L'expression précédente affecte la valeur de 36 à s.
 - Ex: `name = 'Mary'`. Ici la chaîne de caractère Mary est assignée à la variable du nom name.
 
+#### Affectation après addition (+=)
+
+- Cet opérateur permet de calculer la somme (ou concaténation) de ses deux termes avant d'affecter le résultat de cette somme à la variable que représente le terme de gauche.
+
+```
+let a = 2;
+a += 3; // 5
+```
+
+#### Affectation après soustraction (-=)
+
+- Cet opérateur permet d'effectuer la soustraction entre ses deux termes avant d'affecter le résultat de cette soustraction à la variable que représente le terme de gauche.
+
+```
+let a = 2;
+a -= 3; // -1
+```
+
+#### Affectation après multiplication (\*=)
+
+```
+let a = 2;
+a *= 3; // 6
+```
+
+#### Affectation après division (/=)
+
+```
+let a = 2;
+a /= 2; // 1
+```
+
 ### La comparaison
 
 - L'opérateur de comparaison permet de comparer deux éléments. Le résultat de cette comparaison est une valeur logique (soit vrai, soit faux).
@@ -64,6 +96,8 @@
 - Parmi ces opérateurs, on retrouve les symboles des opérations arithmétiques de base : `+` (addition), `-` (soustraction), `*` (multiplication) et enfin `/` (division)
 - L'opérateur reste `%` renvoie le reste d'une division. Ex: `const a = 8 % 6 // renvoie 2`
 - L'opérateur puissance `**` renvoie le résultat de l'exponentiation de l'opérande de gauche par l'opérande de droite. Ex: `const a = 2**2 // renvoie 4`
+- L'opérateur incrément `++` permet d'ajouter un à la variable devant ou derrière laquelle il est placé. Ex: `let a = 1; a++ // 2`
+- L'opérateur décrément `++` permet de retirer un à la variable devant ou derrière laquelle il est placé. Ex: `let a = 1; a-- // 0`
 
 ### Les opérateurs pour les chaînes de caractères
 

@@ -18,36 +18,36 @@
 - Elle permet d'exécuter une instruction jusqu'à ce qu'une condition donnée ne soit plus vraie. En voici la construction :
 
 ```
-for ([point de départ]; [point d'arrivée]; [mesure de progrès])
+for ([j'initialise un compteur]; [je vérifie si je peux continuer]; [je fais progresser mon compteur])
     instruction
 ```
 
-- Le point de départ est une variable, le point d'arrivée est une condition, la mesure de progrès est ce qui va permettre de passer du point de départ jusqu'au point d'arrivée. Une fois le point d'arrivée dépassé, on sort de la boucle.
+- Le point de départ de la boucle est une variable, qui me permet d'initialiser un compteur, c'est-à-dire, de lui donner une valeur de départ.
 
-- On utilise la boucle for lorsque l'on connaît par avances le nombre des répétitions. Par exemple, si je connais le nombre de carottes dans le sac, je peux dire : épluche les carottes de la première à la vingtième. Si je connais pas ce nombre, il faudrait utilise un autre type de boucle, qui consiste à dire : épluche les carottes tant qu'il y en a dans le sac.
+- A chaque tour, je fais progresser mon compteur, c'est-à-dire que je le lui donne une direction, mais aussi une vitesse.
+
+- La boucle for tourne tant que la condition donnée est vraie. Ainsi, à chaque tour, je vérifie si je peux continuer, c'est-à-dire, si la condition est vraie. Si la condition est fausse, ma boucle cesse de s'exécuter, et je passe à la suite.
+
+- On utilise la boucle for lorsque l'on connaît par avances le nombre des répétitions. Par exemple, si je connais le nombre de carottes dans le sac, je peux dire : épluche les carottes de la première à la vingtième. Si je connais pas ce nombre, il faudrait utiliser un autre type de boucle, qui consiste à dire : épluche les carottes tant qu'il y en a dans le sac.
 
 - Voici à quoi pourrait ressembler la boucle for qui va me permettre d'éplucher toutes les carottes :
 
 ```
-for (carotte = 1; carotte <= 20; carotte + 1)
+for (compteur = 1; compteur <= 20; compteur + 1)
     éplucher(carotte)
 ```
 
 - En javascript, voici à quoi cela ressemble :
 
 ```
-for (let carotte = 1; carotte <= 20; carotte += 1) {
+for (let i = 1; i <= 20; i += 1) {
  eplucher(carotte)
 }
 ```
 
+- On peut traduire cette structure de la façon suivante : je fais démarrer mon compteur à un, et tant que sa valeur est inférieur ou égale à 20, j'épluche une carotte. Une fois le tour de boucle terminé, j'ajoute un à mon compteur. Ainsi, à chaque tour, ce compteur se rapproche de 20. Lorsqu'il sera égal à 21, je sortirai de la boucle.
+
 - On reconnaît dans cette construction les accolades, les mêmes que l'on utilise dans les conditionnelles. Elles permettent de regrouper une série d'instructions à exécuter.
-
-- Le point de départ est une expression. On l'utilise pour initialiser un compteur, c'est-à-dire lui donner sa valeur de départ.
-
-- Le point d'arrivée est une condition. Cette condition est évaluée à chaque tour. Si cette condition est remplie (elle vaut true), alors les instructions contenues dans la boucle sont exécutées. (Attention: si cette condition est absente, elle est considérée comme remplie, ce qui est une façon de créer une boucle infinie).
-
-- La mesure de progrès est généralement une opération effectuée sur l'expression de départ, afin qu'au terme de chaque boucle on se rapproche du point d'arrivée. Dans la mesure de progrès dans l'exemple ci-dessus consiste à ajouter un à la variable carotte. Ainsi cette boucle ne permettra d'éplucher les carottes de la première à la vingtième. Si l'on avait voulu éplucher que la moitié du sac, il aurait suffit de définir la mesure de progrès comme suit : carotte += 2;
 
 #### Challenges
 
