@@ -10,14 +10,15 @@ function math(){
 
     const v1=Math.random()
     let v2=Math.random();
-    let v3 =Math.random()
-    let v4 =Math.random()
+    let v3 =Math.random();
+    let v4 =Math.random();
     let a = p=prompt( v1+"x10");
 
     if (a=v1*10) {
         alert("Bonne réponse!!");
     } else {
-        alert("La réponse est "+v1*10); 
+        alert("La réponse est "+v1*10);
+
     }
 
     let b = prompt ( v2+"x10");
@@ -86,3 +87,7 @@ if (value==0&&value<5){
 }
 };
 
+for (let i = 1; i<=20; i++)
+{
+    console.log(tf);
+}
