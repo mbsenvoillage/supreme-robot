@@ -40,3 +40,5 @@ for (let i = 0; i < famille.length; i++) {
 - https://www.hackerrank.com/challenges/a-very-big-sum/
 - https://leetcode.com/problems/concatenation-of-array/description/
 - https://www.hackerrank.com/challenges/birthday-cake-candles
+- https://leetcode.com/problems/final-value-of-variable-after-performing-operations/
+- https://leetcode.com/problems/left-and-right-sum-differences/
