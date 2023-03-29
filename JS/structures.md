@@ -189,3 +189,11 @@ console.log(voiture.["modele"]); // Résultat : '405'
 ### Récapitulatif et conclusion (10 minutes)
 
 - Résumé des concepts clés abordés
+
+#### Challenges
+
+- Créer un objet
+- Afficher les propriétés d'un objet
+- Modifier les propriétés d'un objet
+- Ajouter une propriété à un objet existant
+- Créer un méthode
