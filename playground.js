@@ -49,11 +49,25 @@
 //   console.log(b);
 // }
 // 25 + 25 + 25 + 25 + 25 + 25 + 25 ... 25
-let res = 0;
-for (let c = 1; c <= 10; c++) {
-  res += 25;
+// let res = 0;
+// for (let c = 1; c <= 10; c++) {
+//   res += 25;
+// }
+
+// console.log(res);
+//boucle qui calcule le résultat d
+
+let b = ["a", "b", "c"];
+console.log(b.length);
+
+console.log(b[0]);
+for (let i = 0; i < b.length; i++) {
+  console.log(b[i]);
 }
 
-console.log(res);
-//boucle qui calcule le résultat de 10 fois 25
-//j'affiche
+let u = "";
+for (let i = 0; i < b.length; i++) {
+  u += b[i];
+}
+
+console.log(u);
