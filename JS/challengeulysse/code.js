@@ -9,6 +9,7 @@ function math(){for(let i=0;i<=4;++i){let v1 = Math.random()
 v1=v1*10
 v1=Math.round(v1)
               let a=prompt(v1+"*3")}
+// cool
                 
      if (v1==v1*3){
    alert( "bonne réponse")} else{result=result-1} }
