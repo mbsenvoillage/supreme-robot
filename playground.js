@@ -84,63 +84,69 @@
 //   console.log(b[o]);
 // }
 
-let kitten = {
-  name: "kitty",
-  colour: "brown",
-  skills: "eat, jump, run ",
-  age: "3",
-  length: "30cm",
-  food: "salmon",
-  home: "4 bvd Cateunage, Princesse",
-  eat: (nourriture) => {
-    console.log("Je mange des " + nourriture);
-  },
-  makeNoise: (noise) => {
-    console.log(noise);
-  },
-  calc: (a, b) => {
-    return a + b;
-  },
-};
-console.log(kitten);
-console.log(kitten.name);
+// let kitten = {
+//   name: "kitty",
+//   colour: "brown",
+//   skills: "eat, jump, run ",
+//   age: "3",
+//   length: "30cm",
+//   food: "salmon",
+//   home: "4 bvd Cateunage, Princesse",
+//   eat: (nourriture) => {
+//     console.log("Je mange des " + nourriture);
+//   },
+//   makeNoise: (noise) => {
+//     console.log(noise);
+//   },
+//   calc: (a, b) => {
+//     return a + b;
+//   },
+// };
+// console.log(kitten);
+// console.log(kitten.name);
 
-kitten.eat("croquettes");
-kitten.makeNoise("Miaou");
-console.log(kitten.calc(2, 2));
-kitten.father = {
-  name: "John",
-  colour: "Blue",
-};
+// kitten.eat("croquettes");
+// kitten.makeNoise("Miaou");
+// console.log(kitten.calc(2, 2));
+// kitten.father = {
+//   name: "John",
+//   colour: "Blue",
+// };
 
-console.log(kitten);
+// console.log(kitten);
 
-let user1 = {
-  username: "Billy",
-  password: "1234",
-  banned: false,
-};
+// let user1 = {
+//   username: "Billy",
+//   password: "1234",
+//   banned: false,
+// };
 
-let user2 = {
-  username: "Jimmy",
-  password: "IUYIUYDIUYgfihzfoihsdfoihsdger!é§",
-  banned: false,
-};
+// let user2 = {
+//   username: "Jimmy",
+//   password: "IUYIUYDIUYgfihzfoihsdfoihsdger!é§",
+//   banned: false,
+// };
 
-let users = [user1, user2];
+// let users = [user1, user2];
 
-for (let i = 0; i < users.length; i++) {
-  users[i].banned = true;
+// for (let i = 0; i < users.length; i++) {
+//   users[i].banned = true;
+// }
+
+// console.log(users);
+
+// let a = ["z", "e"];
+
+// a[0] = "erueruyer";
+
+// console.log(a);
+
+// user2.banned = false;
+
+// console.log(user2);
+
+function Hello() {
+  console.log("Hello World");
 }
+Hello();
 
-console.log(users);
-
-let a = ["z", "e"];
-
-a[0] = "erueruyer";
-
-console.log(a);
-
-user2.banned = false;
-
-console.log(user2);
