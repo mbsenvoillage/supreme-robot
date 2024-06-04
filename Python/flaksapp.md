@@ -14,7 +14,7 @@ Créer une application web simple avec Flask qui permet aux utilisateurs de :
 - Flask : un micro-framework Python pour créer des applications web
 - TinyDB : une base de données très simple à utiliser (https://tinydb.readthedocs.io/en/latest/getting-started.html)
 - Flask templates : pour créer des pages HTML dynamiques
-- Werkzeug Security : pour le stockage et le hashage des mots de passe de manière sécurisée
+- Werkzeug Security : pour le stockage et le hashage des mots de passe de manière sécurisée (optionnel)
 
 ## Étapes du projet
 
